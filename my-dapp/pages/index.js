@@ -291,6 +291,7 @@ export default function Home() {
 
       // set an interval to get the number of token Ids minted every 5 seconds
       setInterval(async function () {
+        console.log('Test Test')
         await getTokenIdsMinted();
       }, 5 * 1000);
     }
